@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Institution Mobile Website</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        /* Custom Styles */
+        .custom-header {
+            background-color: #007bff !important;
+            color: #fff !important;
+            text-align: center !important;
+        }
+        .custom-footer {
+            background-color: #007bff !important;
+            color: #fff !important;
+            text-align: center !important;
+        }
+        .ui-content {
+            padding: 15px !important;
+            max-width: 400px; /* Adjust the width as needed */
+            margin: 0 auto; /* Center align */
+        }
+        .ui-btn {
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .ui-btn:hover {
+            background-color: #0056b3 !important;
+        }
+        .ui-page {
+            background-color: #f0f0f0 !important;
+        }
+        .ui-content h2 {
+            color: #007bff !important;
+        }
+        .about-text {
+            font-size: 14px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Home Page -->
+<div data-role="page" id="home">
+    <div data-role="header" class="custom-header">
+        <h1>
+          PICT
+        </h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <h2>Welcome to PICT</h2>
+        <p>We provide quality education in various fields.</p>
+        <p>My Institution is committed to excellence in teaching and research. Established with a vision to empower students with knowledge and skills, we offer a diverse range of programs.</p>
+        <a href="#about" class="ui-btn ui-btn-b ui-corner-all">About Us</a>
+        <a href="#courses" class="ui-btn ui-btn-b ui-corner-all">Courses</a>
+        <a href="#contact" class="ui-btn ui-btn-b ui-corner-all">Contact Us</a>
+        <a href="#events" class="ui-btn ui-btn-b ui-corner-all">Events</a>
+    </div>
+
+    <div data-role="footer" class="custom-footer">
+        <h4>&copy; 2024 My Institution</h4>
+    </div>
+</div>
+
+<!-- About Page -->
+<div data-role="page" id="about">
+    <div data-role="header" class="custom-header">
+        <a href="#home" class="ui-btn ui-icon-back ui-btn-icon-left">Back</a>
+        <h1>About Us</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <h2>About My Institution</h2>
+        <p class="about-text">My Institution is dedicated to providing high-quality education and fostering a culture of innovation. With a legacy of excellence, we strive to prepare students for a successful future.</p>
+        <p class="about-text">Located in a vibrant community, our institution offers a dynamic learning environment where students can thrive academically and personally.</p>
+    </div>
+
+    <div data-role="footer" class="custom-footer">
+        <h4>&copy; 2024 My Institution</h4>
+    </div>
+</div>
+
+<!-- Courses Page -->
+<div data-role="page" id="courses">
+    <div data-role="header" class="custom-header">
+        <a href="#home" class="ui-btn ui-icon-back ui-btn-icon-left">Back</a>
+        <h1>Courses</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <h2>Our Courses</h2>
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#">Bachelor of Science (Computer Science)</a></li>
+            <li><a href="#">Master of Science (Information Technology)</a></li>
+            <li><a href="#">Ph.D. in Computer Science</a></li>
+        </ul>
+    </div>
+
+    <div data-role="footer" class="custom-footer">
+        <h4>&copy; 2024 My Institution</h4>
+    </div>
+</div>
+
+<!-- Contact Page -->
+<div data-role="page" id="contact">
+    <div data-role="header" class="custom-header">
+        <a href="#home" class="ui-btn ui-icon-back ui-btn-icon-left">Back</a>
+        <h1>Contact Us</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <h2>Contact My Institution</h2>
+        <p>For inquiries and assistance, please feel free to reach out to us.</p>
+        <p>Email: info@myinstitution.com</p>
+        <p>Phone: +1234567890</p>
+    </div>
+
+    <div data-role="footer" class="custom-footer">
+        <h4>&copy; 2024 My Institution</h4>
+    </div>
+</div>
+
+</body>
+</html>

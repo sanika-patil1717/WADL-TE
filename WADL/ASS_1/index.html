@@ -1,0 +1,85 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dairy Business</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav bar starts here -->
+    <div class="nav">
+      <ul class="nav-ul">
+        <li>
+          <a href="" class="logo">My<span class="Dar">Dairy</span> </a>
+        </li>
+        <li>
+          <div class="nav-links">
+            <ul class="links">
+              <li><a class="nav-hover" href="#">Home</a></li>
+              <li><a class="nav-hover" href="about.html">About</a></li>
+              <li><a class="nav-hover" href="#">Products</a></li>
+              <li><a class="nav-hover" href="contactus.html">Contact us</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="nav-getstarted">
+            <ul class="login">
+              <li><a class="nav-hover" href="#">Login</a></li>
+              <li>
+                <a href="" class="btn"> Get Started </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- nav bar ends here -->
+
+    <div class="container">
+      <div class="landing">
+        <div class="landing-txt">
+          <h1 class="heading">Eco milk and dairy products</h1>
+          <p class="mid-section">
+            We're proud to share the simple pleasures of real dairy straight from our family farms.
+            Our products are organic and eco friendly.  
+          </p>
+          <a href="#report" class="btn-bottom">View report</a>
+        </div>
+      </div>
+      <div class="report" id="report">
+        <form>
+          <h1>Sheds Production</h1>
+
+          <fieldset>
+            <legend>Enter the milk production values</legend>
+
+            <label for="a">Shed A:</label>
+            <input type="number" id="a" name="a" min="0" />
+
+            <label for="b">Shed B:</label>
+            <input type="number" id="b" name="b" min="0" />
+
+            <label for="c">Shed C:</label>
+            <input type="number" id="c" name="c" min="0" />
+
+            <label for="d">Shed D:</label>
+            <input type="number" id="d" name="d" min="0" />
+          </fieldset>
+          <fieldset>
+            <legend>Enter the milk price per liter</legend>
+            <label for="price">Brookside Purchase Price:</label>
+            <input type="number" id="price" name="price" min="0" />
+          </fieldset>
+
+          <button class="submit-btn" type="submit">GENERATE REPORT</button>
+        </form>
+        <div class="report-body">
+          <h1>Here is your report:</h1>
+          <p class="placeholder" id="placeholder">Your report values will appear here:</p>
+        </div>
+
+    
+  </body>
+</html>
